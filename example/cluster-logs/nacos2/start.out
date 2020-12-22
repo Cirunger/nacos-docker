@@ -1,0 +1,64 @@
+
+         ,--.
+       ,--.'|
+   ,--,:  : |                                           Nacos 1.4.0
+,`--.'`|  ' :                       ,---.               Running in cluster mode, All function modules
+|   :  :  | |                      '   ,'\   .--.--.    Port: 8848
+:   |   \ | :  ,--.--.     ,---.  /   /   | /  /    '   Pid: 26
+|   : '  '; | /       \   /     \.   ; ,. :|  :  /`./   Console: http://nacos2:8848/nacos/index.html
+'   ' ;.    ;.--.  .-. | /    / ''   | |: :|  :  ;_
+|   | | \   | \__\/: . ..    ' / '   | .; : \  \    `.      https://nacos.io
+'   : |  ; .' ," .--.; |'   ; :__|   :    |  `----.   \
+|   | '`--'  /  /  ,.  |'   | '.'|\   \  /  /  /`--'  /
+'   : |     ;  :   .'   \   :    : `----'  '--'.     /
+;   |.'     |  ,     .-./\   \  /            `--'---'
+'---'        `--`---'     `----'
+
+2020-12-21 17:40:03,150 INFO The server IP list of Nacos is [nacos1:8848, nacos2:8848, nacos3:8848]
+
+2020-12-21 17:40:04,183 INFO Nacos is starting...
+
+2020-12-21 17:40:05,195 INFO Nacos is starting...
+
+2020-12-21 17:40:06,199 INFO Nacos is starting...
+
+2020-12-21 17:40:07,201 INFO Nacos is starting...
+
+2020-12-21 17:40:08,223 INFO Nacos is starting...
+
+2020-12-21 17:40:09,238 INFO Nacos is starting...
+
+2020-12-21 17:40:10,241 INFO Nacos is starting...
+
+2020-12-21 17:40:11,249 INFO Nacos is starting...
+
+2020-12-21 17:40:12,258 INFO Nacos is starting...
+
+2020-12-21 17:40:13,305 INFO Nacos is starting...
+
+2020-12-21 17:40:14,312 INFO Nacos is starting...
+
+2020-12-21 17:40:15,313 INFO Nacos is starting...
+
+2020-12-21 17:40:16,314 INFO Nacos is starting...
+
+2020-12-21 17:40:17,316 INFO Nacos is starting...
+
+2020-12-21 17:40:18,326 INFO Nacos is starting...
+
+2020-12-21 17:40:19,328 INFO Nacos is starting...
+
+2020-12-21 17:40:20,334 INFO Nacos is starting...
+
+2020-12-21 17:40:21,341 INFO Nacos is starting...
+
+2020-12-21 17:40:22,345 INFO Nacos is starting...
+
+2020-12-21 17:40:22,900 INFO Nacos Log files: /home/nacos/logs
+
+2020-12-21 17:40:22,902 INFO Nacos Log files: /home/nacos/conf
+
+2020-12-21 17:40:22,903 INFO Nacos Log files: /home/nacos/data
+
+2020-12-21 17:40:22,904 INFO Nacos started successfully in cluster mode. use external storage
+

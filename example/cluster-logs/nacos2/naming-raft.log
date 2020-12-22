@@ -1,0 +1,72 @@
+2020-12-21 17:40:15,620 INFO raft peers changed: [Member{ip='nacos3', port=8848, state=UP, extendInfo={adWeight=0, raftPort=7848, site=unknow, weight=1}}, Member{ip='nacos2', port=8848, state=UP, extendInfo={adWeight=0, raftPort=7848, site=unknow, weight=1}}, Member{ip='nacos1', port=8848, state=UP, extendInfo={adWeight=0, raftPort=7848, site=unknow, weight=1}}]
+
+2020-12-21 17:40:15,672 INFO initializing Raft sub-system
+
+2020-12-21 17:40:15,672 INFO finish loading all datums, size: 0 cost 0 ms.
+
+2020-12-21 17:40:15,675 INFO cache loaded, datum count: 0, current term: 0
+
+2020-12-21 17:40:15,676 INFO finish to load data from disk, cost: 4 ms.
+
+2020-12-21 17:40:15,689 INFO timer started: leader timeout ms: 15000, heart-beat timeout ms: 5000
+
+2020-12-21 17:40:16,442 INFO raft peers changed: [Member{ip='nacos3', port=8848, state=UP, extendInfo={adWeight=0, raftPort=7848, site=unknow, weight=1}}, Member{ip='nacos2', port=8848, state=UP, extendInfo={adWeight=0, raftPort=7848, site=unknow, weight=1}}, Member{ip='nacos1', port=8848, state=UP, extendInfo={adWeight=0, raftPort=7848, site=unknow, weight=1}}]
+
+2020-12-21 17:40:18,728 INFO add listener: com.alibaba.nacos.naming.domains.meta.00-00---000-NACOS_SWITCH_DOMAIN-000---00-00
+
+2020-12-21 17:40:18,767 INFO add listener: com.alibaba.nacos.naming.domains.meta.
+
+2020-12-21 17:40:23,179 INFO leader timeout, start voting,leader: null, term: 0
+
+2020-12-21 17:40:23,359 ERROR error while sending vote to server: nacos1:8848
+
+java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:716)
+	at org.apache.http.impl.nio.reactor.DefaultConnectingIOReactor.processEvent(DefaultConnectingIOReactor.java:174)
+	at org.apache.http.impl.nio.reactor.DefaultConnectingIOReactor.processEvents(DefaultConnectingIOReactor.java:148)
+	at org.apache.http.impl.nio.reactor.AbstractMultiworkerIOReactor.execute(AbstractMultiworkerIOReactor.java:351)
+	at org.apache.http.impl.nio.conn.PoolingNHttpClientConnectionManager.execute(PoolingNHttpClientConnectionManager.java:194)
+	at org.apache.http.impl.nio.client.CloseableHttpAsyncClientBase$1.run(CloseableHttpAsyncClientBase.java:64)
+	at java.lang.Thread.run(Thread.java:748)
+2020-12-21 17:40:23,359 ERROR error while sending vote to server: nacos3:8848
+
+java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:716)
+	at org.apache.http.impl.nio.reactor.DefaultConnectingIOReactor.processEvent(DefaultConnectingIOReactor.java:174)
+	at org.apache.http.impl.nio.reactor.DefaultConnectingIOReactor.processEvents(DefaultConnectingIOReactor.java:148)
+	at org.apache.http.impl.nio.reactor.AbstractMultiworkerIOReactor.execute(AbstractMultiworkerIOReactor.java:351)
+	at org.apache.http.impl.nio.conn.PoolingNHttpClientConnectionManager.execute(PoolingNHttpClientConnectionManager.java:194)
+	at org.apache.http.impl.nio.client.CloseableHttpAsyncClientBase$1.run(CloseableHttpAsyncClientBase.java:64)
+	at java.lang.Thread.run(Thread.java:748)
+2020-12-21 17:40:26,449 INFO received illegitimate vote, voter-term:1, votee-term:1
+
+2020-12-21 17:40:30,003 WARN [IS LEADER] no leader is available now!
+
+2020-12-21 17:40:30,982 INFO [RAFT] make remote as leader, remote peer: {"ip":"nacos1:8848","voteFor":"nacos1:8848","term":1,"leaderDueMs":16724,"heartbeatDueMs":5000,"state":"LEADER"}
+
+2020-12-21 17:40:30,984 INFO nacos1:8848 has become the LEADER, local: {"ip":"nacos2:8848","voteFor":"nacos1:8848","term":1,"leaderDueMs":16689,"heartbeatDueMs":5000,"state":"FOLLOWER"}, leader: {"ip":"nacos1:8848","voteFor":"nacos1:8848","term":1,"leaderDueMs":16724,"heartbeatDueMs":5000,"state":"LEADER"}
+
+2020-12-21 17:40:35,560 WARN start to close old raft protocol!!!
+
+2020-12-21 17:40:35,560 WARN stop old raft protocol task for notifier
+
+2020-12-21 17:40:35,561 WARN stop old raft protocol task for master task
+
+2020-12-21 17:40:35,561 WARN stop old raft protocol task for heartbeat task
+
+2020-12-21 17:40:35,561 WARN clean old cache datum for old raft
+
+2020-12-21 17:40:35,561 WARN start to close old raft protocol!!!
+
+2020-12-21 17:40:35,561 WARN stop old raft protocol task for notifier
+
+2020-12-21 17:40:35,561 WARN stop old raft protocol task for master task
+
+2020-12-21 17:40:35,561 WARN stop old raft protocol task for heartbeat task
+
+2020-12-21 17:40:35,561 WARN clean old cache datum for old raft
+
+2020-12-21 17:40:35,561 WARN start to move old raft protocol metadata
+

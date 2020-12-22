@@ -1,0 +1,48 @@
+2020-12-21 17:40:16,740 INFO raft peers changed: [Member{ip='nacos3', port=8848, state=UP, extendInfo={adWeight=0, raftPort=7848, site=unknow, weight=1}}, Member{ip='nacos2', port=8848, state=UP, extendInfo={adWeight=0, raftPort=7848, site=unknow, weight=1}}, Member{ip='nacos1', port=8848, state=UP, extendInfo={adWeight=0, raftPort=7848, site=unknow, weight=1}}]
+
+2020-12-21 17:40:16,833 INFO initializing Raft sub-system
+
+2020-12-21 17:40:16,834 INFO finish loading all datums, size: 0 cost 0 ms.
+
+2020-12-21 17:40:16,852 INFO cache loaded, datum count: 0, current term: 0
+
+2020-12-21 17:40:16,852 INFO finish to load data from disk, cost: 18 ms.
+
+2020-12-21 17:40:16,872 INFO timer started: leader timeout ms: 15000, heart-beat timeout ms: 5000
+
+2020-12-21 17:40:17,602 INFO raft peers changed: [Member{ip='nacos3', port=8848, state=UP, extendInfo={adWeight=0, raftPort=7848, site=unknow, weight=1}}, Member{ip='nacos2', port=8848, state=UP, extendInfo={adWeight=0, raftPort=7848, site=unknow, weight=1}}, Member{ip='nacos1', port=8848, state=UP, extendInfo={adWeight=0, raftPort=7848, site=unknow, weight=1}}]
+
+2020-12-21 17:40:20,718 INFO add listener: com.alibaba.nacos.naming.domains.meta.00-00---000-NACOS_SWITCH_DOMAIN-000---00-00
+
+2020-12-21 17:40:20,815 INFO add listener: com.alibaba.nacos.naming.domains.meta.
+
+2020-12-21 17:40:26,461 INFO vote nacos1:8848 as leader, term: 1
+
+2020-12-21 17:40:30,002 WARN [IS LEADER] no leader is available now!
+
+2020-12-21 17:40:30,983 INFO nacos1:8848 has become the LEADER, local: {"ip":"nacos3:8848","voteFor":"nacos1:8848","term":1,"leaderDueMs":15869,"heartbeatDueMs":5000,"state":"FOLLOWER"}, leader: {"ip":"nacos1:8848","voteFor":"nacos1:8848","term":1,"leaderDueMs":16724,"heartbeatDueMs":5000,"state":"LEADER"}
+
+2020-12-21 17:40:31,766 WARN start to close old raft protocol!!!
+
+2020-12-21 17:40:31,766 WARN stop old raft protocol task for notifier
+
+2020-12-21 17:40:31,767 WARN stop old raft protocol task for master task
+
+2020-12-21 17:40:31,767 WARN stop old raft protocol task for heartbeat task
+
+2020-12-21 17:40:31,767 WARN clean old cache datum for old raft
+
+2020-12-21 17:40:31,767 WARN start to close old raft protocol!!!
+
+2020-12-21 17:40:31,767 WARN stop old raft protocol task for notifier
+
+2020-12-21 17:40:31,767 WARN stop old raft protocol task for master task
+
+2020-12-21 17:40:31,767 WARN stop old raft protocol task for heartbeat task
+
+2020-12-21 17:40:31,767 WARN clean old cache datum for old raft
+
+2020-12-21 17:40:31,767 WARN start to move old raft protocol metadata
+
+2020-12-21 17:40:31,903 INFO raft peers changed: [Member{ip='nacos3', port=8848, state=UP, extendInfo={adWeight=0, lastRefreshTime=1608543631767, naming={voteFor=nacos1:8848, ip=nacos3:8848, heartbeatDueMs=5000, term=1, leaderDueMs=15869, state=FOLLOWER}, raftMetaData=com.alibaba.nacos.consistency.ProtocolMetaData@7967a5af, raftPort=7848, site=unknow, version=1.4.0, weight=1}}, Member{ip='nacos2', port=8848, state=UP, extendInfo={adWeight=0, lastRefreshTime=1608543631903, naming={voteFor=nacos1:8848, ip=nacos2:8848, heartbeatDueMs=5000, term=1, leaderDueMs=16689, state=FOLLOWER}, raftMetaData={metaDataMap={naming_persistent_service={leader=nacos2:7848, raftGroupMember=[nacos3:7848, nacos1:7848, nacos2:7848], term=1}}}, raftPort=7848, site=unknow, version=1.4.0, weight=1}}, Member{ip='nacos1', port=8848, state=UP, extendInfo={adWeight=0, lastRefreshTime=1608543631096, naming={voteFor=nacos1:8848, ip=nacos1:8848, heartbeatDueMs=5000, term=1, leaderDueMs=16155, state=LEADER}, raftMetaData={metaDataMap={naming_persistent_service={leader=nacos2:7848, raftGroupMember=[nacos3:7848, nacos1:7848, nacos2:7848], term=1}}}, raftPort=7848, site=unknown, version=1.4.0, weight=2}}]
+
